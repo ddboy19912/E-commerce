@@ -50,6 +50,7 @@ const Center = styled.div`
 const Logo = styled.h1`
   font-weight: bold;
   ${mobile({ fontSize: "24px" })}
+  font-style: italic;
 `;
 const Right = styled.div`
   flex: 1;
@@ -78,13 +79,13 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>LAMA.</Logo>
+          <Logo>RECTRESS</Logo>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>
           <MenuItem>SIGN IN</MenuItem>
           <MenuItem>
-            <Badge badgeContent={4} color="primary">
+            <Badge badgeContent={4} color="secondary">
               <ShoppingCartOutlined />
             </Badge>
           </MenuItem>
